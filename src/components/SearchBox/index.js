@@ -20,7 +20,7 @@ const SearchBox = ({ searchText, setSearchText }) => {
     setSettings(prev => ({ ...prev, isLoading: true }));
 
     try {
-      const response = await fetch('http://localhost:5001/api/search', {
+      const response = await fetch('http://localhost:5001/api/test-search', {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json',
