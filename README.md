@@ -1,2 +1,1 @@
-Title: Coragen
-Link: https://atharvanegi.github.io/coragen/
+CORAGEN Live Demo: https://atharvanegi.github.io/coragen/
