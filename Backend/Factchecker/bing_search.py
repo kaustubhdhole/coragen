@@ -16,7 +16,7 @@ Documentation: https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search
 # Add your Bing Search V7 subscription key and endpoint to your environment variables.
 # with open('.bing_key','r+') as f:
 #     bing_key = f.read().strip()
-subscription_key = '01bb03d59226422e9426c8c60de24209'
+subscription_key = os.environ['BING_KEY']
 
 endpoint = "https://api.bing.microsoft.com/v7.0/search"
 

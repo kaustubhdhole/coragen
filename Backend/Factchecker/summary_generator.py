@@ -17,7 +17,7 @@ def generate_gpt_summary( api_key: str, query, attribute,attribute_links) -> lis
         if not api_key:
             logger.error("No API key provided")
             return ["Error: API key is required"]
-        API_KEY = "e3cc9b0d6a4f4e13a194fe19a95ffc47"
+        API_KEY = os.environ['OPEN-AI-KEY']
         headers = {
             "Content-Type": "application/json",
             "api-key": API_KEY,

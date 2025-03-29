@@ -77,7 +77,7 @@ def evaluate_summary_similarity(summary1, summary2, api_key):
         float: Similarity score between 0 and 5
     """
     # API_KEY = api_key or ""
-    API_KEY="e3cc9b0d6a4f4e13a194fe19a95ffc47"
+    API_KEY=os.environ['OPEN-AI-KEY']
     headers = {
         "Content-Type": "application/json",
         "api-key": API_KEY,
