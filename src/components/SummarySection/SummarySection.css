@@ -1,0 +1,43 @@
+.summary-section {
+  background: #f8fafc;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+}
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.75rem;
+}
+
+.summary-item {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.summary-item:hover {
+  transform: translateY(-2px);
+}
+
+.summary-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #334155;
+}
+
+.score-metrics {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
