@@ -1,1 +1,1 @@
-CORAGEN Live Demo: https://atharvanegi.github.io/coragen/
+CORAGEN Live Demo: https://coragen.ue.r.appspot.com/
